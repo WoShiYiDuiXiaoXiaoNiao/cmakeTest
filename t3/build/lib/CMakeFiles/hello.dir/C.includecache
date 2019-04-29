@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sly/camketest/t3/lib/hello.c
+hello.h
+/home/sly/camketest/t3/lib/hello.h
+
+/home/sly/camketest/t3/lib/hello.h
+stdio.h
+-
+
